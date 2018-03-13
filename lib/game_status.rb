@@ -34,8 +34,6 @@ end
 
 def over?(board)
   won?(board) || full?(board)
- #!draw?(board) == nil && full?(board) == false
- #return true
 end
 
 def winner(board)
